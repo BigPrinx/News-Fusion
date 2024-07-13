@@ -1,0 +1,116 @@
+body {
+  background-image: url('Background.png.JPG');
+  background-size: cover;
+  background-position: center;
+  background-color: #f2f2f2; /* optional */
+  font-family: Helvetica, sans-serif; /* optional */
+}
+
+
+/* Reset default styles */
+body, table, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #0074D9, #7FDBFF); /* Light gradient background */
+    background-size: 100% 4px; /* Adjust size of lines */
+    background-repeat: repeat-x; /* Repeat horizontally */
+}
+
+.header {
+    background: linear-gradient(to bottom, #0074D9, #7FDBFF); /* Gradient from blue to light blue */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px; /* Increased font size for emphasis */
+}
+
+/* Content section styles */
+.content {
+    padding: 20px;
+}
+
+.content-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #333333, #555555); /* Dark gradient */
+    color: #fff;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-block:hover {
+    transform: translateY(-5px); /* Move up on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Drop shadow on hover */
+}
+
+.content-block h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-block p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Newsletter section styles */
+.newsletter-section {
+    background-color: #f9f9f9; /* Light gray background for newsletter section */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.newsletter-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #0074D9, #7FDBFF; /* Gold background color */
+    color: #333; /* Dark text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.newsletter-form button:hover {
+    background-color: #0074D9, #7FDBFF; /* Darker gold on hover */
+}
